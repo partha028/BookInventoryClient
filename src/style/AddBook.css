@@ -1,0 +1,54 @@
+.add-book-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .add-book-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-book-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-book-container label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .add-book-container input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .add-book-container input[type="date"] {
+    font-family: inherit;
+  }
+  
+  .add-book-container button {
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-book-container button:hover {
+    background-color: #0056b3;
+  }
+  
