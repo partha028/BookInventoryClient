@@ -4,7 +4,7 @@ const API_URL = 'http://localhost:8081/api/books';
 
 export const getBooks = async () => {
   try {
-    const response = await axios.get(`${API_URL}`);
+    const response = await axios.get(`${API_URL}/all`);
     return response.data;
   } catch (error) {
     alert("Error fetching books");
